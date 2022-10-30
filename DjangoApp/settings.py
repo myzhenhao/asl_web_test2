@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['www.advanced-superlogic.com','172.104.176.84']
 # Application definition
 
 INSTALLED_APPS = [
+    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
